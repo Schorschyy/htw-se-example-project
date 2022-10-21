@@ -3,6 +3,7 @@ Vorname Nachname <email>
 1.0, 01.09.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: rouge
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -32,6 +33,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .. oramge
 
 === Tabellen und Textformatierung
+[#formatierung]
 |===
 |Formatierung  |Syntax | Beschreibung
 
@@ -57,3 +59,24 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |Text mit Formatierung innerhalb eines Wortes
 
 |===
+
+=== Quellcode
+[#code]
+.Beispielprogramm in C
+[source,c,linenums]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+----
+
+=== Bilder 
+.Vs Code Editor
+imagine::screen_vsc.png[Screenshot VS Code]
+
+=== Verweise
+In deisem Dokument befinmdet sich <<code>> und 
